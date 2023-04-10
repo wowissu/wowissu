@@ -1,13 +1,13 @@
-const staticPaths = new Set(["/","/@qwik-city-not-found-paths.js","/@qwik-city-plan.mjs","/@qwik-city-static-paths.js","/demo/flower/","/demo/todolist/","/entry.ssr.js","/entry.ssr.mjs","/package.json","/sitemap.xml"]);
+const staticPaths = new Set(["/wowissu/","/wowissu/@qwik-city-not-found-paths.js","/wowissu/@qwik-city-plan.mjs","/wowissu/@qwik-city-static-paths.js","/wowissu/demo/flower/","/wowissu/demo/todolist/","/wowissu/entry.ssr.js","/wowissu/entry.ssr.mjs","/wowissu/package.json","/wowissu/sitemap.xml"]);
 function isStaticPath(method, url) {
   if (method.toUpperCase() !== 'GET') {
     return false;
   }
   const p = url.pathname;
-  if (p.startsWith("/build/")) {
+  if (p.startsWith("/wowissu/build/")) {
     return true;
   }
-  if (p.startsWith("/assets/")) {
+  if (p.startsWith("/wowissu/assets/")) {
     return true;
   }
   if (staticPaths.has(p)) {

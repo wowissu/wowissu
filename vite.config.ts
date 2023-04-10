@@ -8,6 +8,7 @@ const outDir = path.join(__dirname, 'docs');
 
 export default defineConfig(() => {
   return {
+    base: "/wowissu/",
     build: {
       outDir
     },
