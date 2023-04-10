@@ -1,0 +1,40 @@
+.dinosaur {
+  background-color: #1A8F51;
+  /* -webkit-mask: url(/img/dinosaur_1.svg) no-repeat center;
+  mask: url(/img/dinosaur_1.svg) no-repeat center; */
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  width: 117px;
+  height: 126px;
+
+  /* animation-name: dinosaur_walk;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(2);
+  animation-fill-mode: forwards; */
+
+  animation: dinosaur_walk 0.5s steps(2) infinite;
+}
+
+
+@keyframes dinosaur_walk {
+  0% {
+    -webkit-mask: url(/img/dinosaur_1.svg) no-repeat center;
+    mask: url(/img/dinosaur_1.svg) no-repeat center;
+    transform: translateX(0);
+  }
+  50% {
+    -webkit-mask: url(/img/dinosaur_1.svg) no-repeat center;
+    mask: url(/img/dinosaur_1.svg) no-repeat center;
+  }
+  51% {
+    -webkit-mask: url(/img/dinosaur_2.svg) no-repeat center;
+    mask: url(/img/dinosaur_2.svg) no-repeat center;
+  }
+  100% {
+    -webkit-mask: url(/img/dinosaur_2.svg) no-repeat center;
+    mask: url(/img/dinosaur_2.svg) no-repeat center;
+    transform: translateX(50px);
+  }
+}
