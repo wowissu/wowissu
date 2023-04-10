@@ -5,14 +5,11 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 import path from 'path';
 
 // const rootDir = path.join(__dirname, 'src');
-const outDir = path.join(__dirname, 'docs');
+export const outDir = path.join(__dirname, 'docs');
 
 export default defineConfig(() => {
   return {
     base: "/wowissu/",
-    build: {
-      outDir
-    },
     plugins: [qwikCity(), qwikVite({ client: { outDir } }), tsconfigPaths()],
     preview: {
       headers: {
