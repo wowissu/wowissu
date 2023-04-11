@@ -1,4 +1,4 @@
-import { component$, useComputed$, useSignal, useStore, useVisibleTask$ } from '@builder.io/qwik';
+import { $, component$, useComputed$, useSignal, useStore, useVisibleTask$ } from '@builder.io/qwik';
 
 interface RectPosition {
   x: number;
@@ -18,35 +18,35 @@ export const Ground = component$(() => {
     svgWidth.value = window.innerWidth;
   });
 
-  useVisibleTask$(() => {
-    function refill(i: number, startX: number = svgWidth.value) {
-      const w = randomInt(10) % 4 === 0 ? 90 : 50;
-      const h = 20;
-      const x = startX;
-      const y = svgHeight.value / 5 * randomInt(5, 1);
-      
-      rects[i] = { w, h, x, y };
-    }
+  const refill = $(function refill(i: number, startX: number = svgWidth.value) {
+    const w = randomInt(10) % 4 === 0 ? 90 : 50;
+    const h = 20;
+    const x = startX;
+    const y = svgHeight.value / 6 * randomInt(6, 1);
+    
+    rects[i] = { w, h, x, y };
+  })
 
+  useVisibleTask$(({ cleanup }) => {
     for (let i = 0; i <= 9; i++) {
       refill(i, svgWidth.value / 32 * randomInt(32));
     }
 
-    // let count = 0;
-
-    window.setInterval(() => {
-      // count++;
-
+    const interval = window.setInterval(() => {
       rects.forEach((p, i) => {
         const x = p.x - 5;
-
+  
         if ((x + p.w) < 0) {
           refill(i, svgWidth.value + randomInt(50));
         } else {
           rects[i] = {...p, x};
         }
       })
-    }, 100);
+    }, 1000 / 10)
+
+    cleanup(() => {
+      window.clearInterval(interval);
+    })
   })
 
   return (

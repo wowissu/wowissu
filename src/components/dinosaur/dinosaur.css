@@ -1,11 +1,19 @@
+:root {
+  --dinosaur-height: clamp(180px, 15vw, 336px);
+}
+
+
 .dinosaur {
-  background-color: #1A8F51;
+  background-color: var(--dinosaur-green);
   /* -webkit-mask: url(/img/dinosaur_1.svg) no-repeat center;
   mask: url(/img/dinosaur_1.svg) no-repeat center; */
   -webkit-mask-size: contain;
   mask-size: contain;
-  width: 117px;
-  height: 126px;
+  mask-repeat: no-repeat;
+
+  
+  height: var(--dinosaur-height);
+  aspect-ratio: calc(310 / 336);
 
   /* animation-name: dinosaur_walk;
   animation-duration: 2s;
@@ -17,24 +25,33 @@
   animation: dinosaur_walk 0.5s steps(2) infinite;
 }
 
+.dinosaur-position {
+  @apply absolute bottom-1/2 left-0 z-0;
+
+  --translate-x: calc(var(--dinosaur-height) * -1);
+  --translate-y: calc(10%);
+
+  transform: translate(var(--translate-x), var(--translate-y));
+}
+
 
 @keyframes dinosaur_walk {
   0% {
-    -webkit-mask: url(/img/dinosaur_1.svg) no-repeat center;
-    mask: url(/img/dinosaur_1.svg) no-repeat center;
+    -webkit-mask-image: url(/img/dinosaur_1.svg);
+    mask-image: url(/img/dinosaur_1.svg);
     transform: translateX(0);
   }
   50% {
-    -webkit-mask: url(/img/dinosaur_1.svg) no-repeat center;
-    mask: url(/img/dinosaur_1.svg) no-repeat center;
+    -webkit-mask-image: url(/img/dinosaur_1.svg);
+    mask-image: url(/img/dinosaur_1.svg);
   }
   51% {
-    -webkit-mask: url(/img/dinosaur_2.svg) no-repeat center;
-    mask: url(/img/dinosaur_2.svg) no-repeat center;
+    -webkit-mask-image: url(/img/dinosaur_2.svg);
+    mask-image: url(/img/dinosaur_2.svg);
   }
   100% {
-    -webkit-mask: url(/img/dinosaur_2.svg) no-repeat center;
-    mask: url(/img/dinosaur_2.svg) no-repeat center;
+    -webkit-mask-image: url(/img/dinosaur_2.svg);
+    mask-image: url(/img/dinosaur_2.svg);
     transform: translateX(50px);
   }
 }

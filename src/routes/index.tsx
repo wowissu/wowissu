@@ -1,12 +1,54 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead} from '@builder.io/qwik-city';
+import ArrowDown from '~/components/arrowDown/arrowDown';
 import { Jurassic } from '~/components/dinosaur/Jurassic';
+import { Dinosaur } from '~/components/dinosaur/dinosaur';
+import HiIamSu from '~/components/hiIamSu/hiIamSu';
 
 export default component$(() => {
   return (
     <>
       <div class="min-h-screen relative">
-        <Jurassic></Jurassic>
+        {/* first section */}
+        <div class="h-screen ">  
+          <div class="absolute bottom-0 h-[50vh] w-screen z-0">
+            <Jurassic></Jurassic>
+          </div>
+          {/* title */}
+          <div class="absolute h-full w-full flex justify-center items-center">
+            <div class="relative">
+              <div class="dinosaur-position">
+                <Dinosaur></Dinosaur>
+              </div>
+              <div class="relative z-[1] font-retroComputer text-center space-y-6">
+                <div class="flex justify-center">
+                  <HiIamSu></HiIamSu>
+                </div>
+
+                <h1 class="text-d-xxxl">PERSONAL<br/>PORTFOLIO</h1>
+                
+                <div class="flex justify-evenly items-center text-d-xl">
+                  <div>
+                    FRONTEND
+                  </div>
+                  <div>
+                    |
+                  </div>
+                  <div>
+                    BACKEND
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* more */}
+          <div class="absolute bottom-0 w-full left-0 flex justify-center py-6">  
+            <div class="cursor-pointer">
+              <ArrowDown></ArrowDown>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
