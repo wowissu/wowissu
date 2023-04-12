@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
 
-  color: #2BD182;
+  color: var(--highlight-green);
   font-size: clamp(20px, calc(1vw + 14px), 40px);
   width: clamp(200px, calc(15vw + 100px), 400px);
   aspect-ratio: calc(283/68);

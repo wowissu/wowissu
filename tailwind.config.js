@@ -4,10 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "dinosaur-green": "#1A8F51"
+        "dinosaur-green": "#1A8F51",
+        "highlight-green": "#2BD182",
+        "gray-h2": "#858585"
       },
       fontFamily: {
-        retroComputer: ['retro-computer']
+        retroComputer: ['retro-computer'],
+        poppins: ['Poppins', 'sans-serif'],
       },
       fontSize: {
         "d-xxxl": "clamp(3rem, 5vw, 7rem)",

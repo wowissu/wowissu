@@ -1,0 +1,20 @@
+.personal-summary-block {
+  width: clamp(300px, 60%, 960px)
+}
+
+.personal-list > li {
+  display: flex;
+  align-items: first baseline;
+}
+
+.personal-list > li:before {
+  @apply bg-highlight-green;
+
+  content: '';
+  display: block;
+  flex: 0 0 15px;
+  /* flex-basis: 15px; */
+  height: 15px;
+  margin-right: 24px;
+}
+

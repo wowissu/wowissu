@@ -4,14 +4,15 @@ import ArrowDown from '~/components/arrowDown/arrowDown';
 import { Jurassic } from '~/components/dinosaur/Jurassic';
 import { Dinosaur } from '~/components/dinosaur/dinosaur';
 import HiIamSu from '~/components/hiIamSu/hiIamSu';
+import PersonalInformation from '~/components/personalInformation/personalInformation';
 
 export default component$(() => {
   return (
     <>
       <div class="min-h-screen relative">
         {/* first section */}
-        <div class="h-screen ">  
-          <div class="absolute bottom-0 h-[50vh] w-screen z-0">
+        <div class="h-screen relative">  
+          <div class="absolute bottom-0 h-1/2 w-full z-0">
             <Jurassic></Jurassic>
           </div>
           {/* title */}
@@ -48,6 +49,10 @@ export default component$(() => {
               <ArrowDown></ArrowDown>
             </div>
           </div>
+        </div>
+        {/* Personal information */}
+        <div>
+          <PersonalInformation></PersonalInformation>
         </div>
       </div>
     </>
