@@ -5,6 +5,7 @@ import { Jurassic } from '~/components/dinosaur/Jurassic';
 import { Dinosaur } from '~/components/dinosaur/dinosaur';
 import HiIamSu from '~/components/hiIamSu/hiIamSu';
 import PersonalInformation from '~/components/personalInformation/personalInformation';
+import WorkExperience from '~/components/workExperience/workExperience';
 
 export default component$(() => {
   return (
@@ -53,6 +54,10 @@ export default component$(() => {
         {/* Personal information */}
         <div>
           <PersonalInformation></PersonalInformation>
+        </div>
+        {/* work experience */}
+        <div>
+          <WorkExperience></WorkExperience>
         </div>
       </div>
     </>

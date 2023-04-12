@@ -6,7 +6,7 @@ import { githubUrl, myGmail, npmUrl, resumeUrl } from '~/const/url.const'
 export default component$(() => {
   return (
     <div class="py-12 px-12 w-max-[1920px] mx-auto space-y-10">
-      <div class="font-retroComputer text-6xl text-right text-gray-h2 py-12">
+      <div class="font-retroComputer text-6xl text-right text-hint py-12">
         PERSONAL INFORMATION
       </div>      
       <div class="personal-summary-block px-10 space-y-10">
