@@ -45,7 +45,7 @@ export default component$(() => {
 
         <div>
           <a class="btn" href={resumeUrl} target="_blank">
-            GO TO Resume
+            More Detail
           </a>
         </div>
       </div>
@@ -121,12 +121,12 @@ const WaterRipple = component$(() => {
 
   return (
     <div ref={el} class="water-ripple">
-      <div class="water-ripple-element water-ripple-ring ring-5"></div>
-      <div class="water-ripple-element water-ripple-ring ring-4"></div>
-      <div class="water-ripple-element water-ripple-ring ring-3"></div>
-      <div class="water-ripple-element water-ripple-ring ring-2"></div>
-      <div class="water-ripple-element water-ripple-ring ring-1"></div>
-      <div class="water-ripple-element water-ripple-center"></div>
+      <div class="wr-element wr-ring wr-ring-5"></div>
+      <div class="wr-element wr-ring wr-ring-4"></div>
+      <div class="wr-element wr-ring wr-ring-3"></div>
+      <div class="wr-element wr-ring wr-ring-2"></div>
+      <div class="wr-element wr-ring wr-ring-1"></div>
+      <div class="wr-element wr-center"></div>
     </div>
   )
 });

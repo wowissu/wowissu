@@ -24,7 +24,7 @@
   position: relative;
 }
 
-.water-ripple .water-ripple-center {
+.water-ripple .wr-center {
   position: relative;
   width: 20vw;
   height: 20vw;
@@ -34,73 +34,73 @@
   z-index: 2;
 }
 
-.water-ripple .water-ripple-ring {
+.water-ripple .wr-ring {
   --bg-color: rgba(27, 152, 94, 0.75);
 
   position: absolute;
   z-index: 1;
-  width: calc(20vw + var(--distend));
-  height: calc(20vw + var(--distend));
-  left: calc(var(--distend) / 2 * -1);
-  top: calc(var(--distend) / 2 * -1);
-  border: 16px solid;
+  width: calc(20vw + var(--wr-distend));
+  height: calc(20vw + var(--wr-distend));
+  left: calc(var(--wr-distend) / 2 * -1);
+  top: calc(var(--wr-distend) / 2 * -1);
+  border-width: 16px;
   border-radius: 100%;
   border-color: var(--bg-color);
-  opacity: var(--circle-opacity);
+  opacity: var(--wr-opacity);
 }
 
-.water-ripple-element {
-  --water-ripple-range: 20px;
-  --water-ripple-delay: 0s;
-  --water-ripple-duration: .3s;
-  --water-ripple-scale: 1;
+.wr-element {
+  --wr-range: 20px;
+  --wr-delay: 0s;
+  --wr-duration: .3s;
+  --wr-scale: 1;
 
   transition: transform .3s;
-  transition-delay: var(--water-ripple-delay);
-  transition-duration: var(--water-ripple-duration);
-  transform: scale(var(--water-ripple-scale)) translate(var(--swing-x), var(--swing-y));
+  transition-delay: var(--wr-delay);
+  transition-duration: var(--wr-duration);
+  transform: scale(var(--wr-scale)) translate(var(--swing-x), var(--swing-y));
 }
 
-.water-ripple.swing-to-right .water-ripple-element {
-  --swing-x: var(--water-ripple-range);
+.water-ripple.swing-to-right .wr-element {
+  --swing-x: var(--wr-range);
 }
-.water-ripple.swing-to-left .water-ripple-element {
-  --swing-x: calc(var(--water-ripple-range) * -1);
+.water-ripple.swing-to-left .wr-element {
+  --swing-x: calc(var(--wr-range) * -1);
 }
-.water-ripple.swing-to-bottom .water-ripple-element {
-  --swing-y: var(--water-ripple-range);
+.water-ripple.swing-to-bottom .wr-element {
+  --swing-y: var(--wr-range);
 }
-.water-ripple.swing-to-top .water-ripple-element {
-  --swing-y: calc(var(--water-ripple-range) * -1);
-}
-
-.water-ripple.water-ripple-popple .water-ripple-element {
-  --water-ripple-scale: 1.1;
+.water-ripple.swing-to-top .wr-element {
+  --swing-y: calc(var(--wr-range) * -1);
 }
 
-.water-ripple .water-ripple-ring.ring-1 {
-  --distend: 100px;
-  --circle-opacity: .7;
-  --water-ripple-duration: .4s;
+.water-ripple.wr-popple .wr-element {
+  --wr-scale: 1.1;
 }
-.water-ripple .water-ripple-ring.ring-2 {
-  --distend: 200px;
-  --circle-opacity: .5;
-  --water-ripple-duration: .5s;
+
+.water-ripple .wr-ring.wr-ring-1 {
+  --wr-distend: 100px;
+  --wr-opacity: .7;
+  --wr-duration: .4s;
 }
-.water-ripple .water-ripple-ring.ring-3 {
-  --distend: 300px;
-  --circle-opacity: .25;
-  --water-ripple-duration: .6s;
+.water-ripple .wr-ring.wr-ring-2 {
+  --wr-distend: 200px;
+  --wr-opacity: .5;
+  --wr-duration: .5s;
 }
-.water-ripple .water-ripple-ring.ring-4 {
-  --distend: 400px;
-  --circle-opacity: .2;
-  --water-ripple-duration: .7s;
+.water-ripple .wr-ring.wr-ring-3 {
+  --wr-distend: 300px;
+  --wr-opacity: .25;
+  --wr-duration: .6s;
 }
-.water-ripple .water-ripple-ring.ring-5 {
-  --distend: 500px;
-  --circle-opacity: .15;
-  --water-ripple-duration: .8s;
+.water-ripple .wr-ring.wr-ring-4 {
+  --wr-distend: 400px;
+  --wr-opacity: .2;
+  --wr-duration: .7s;
+}
+.water-ripple .wr-ring.wr-ring-5 {
+  --wr-distend: 500px;
+  --wr-opacity: .15;
+  --wr-duration: .8s;
 }
 
