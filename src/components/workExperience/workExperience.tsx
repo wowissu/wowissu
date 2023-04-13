@@ -18,7 +18,7 @@ const WorkExpItem = component$<WorkExpItemProps>((props) => {
           <h3 class="text-1.5xl font-medium tracking-[0.05em]">
             <span class="text-highlight-green mr-4">{props.years}</span>
             <span>{props.title}</span>
-            <span>{props.company && (<a href={props.companyUrl} target="_blank">, {props.company}</a>)}</span>
+            <span>{props.company && (<span>, <a class="underline" href={props.companyUrl} target="_blank">{props.company}</a></span>)}</span>
           </h3>
         </div>
         <div class="work-exp-content space-y-4 pb-8">  

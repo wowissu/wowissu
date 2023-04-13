@@ -1,6 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead} from '@builder.io/qwik-city';
 import ArrowDown from '~/components/arrowDown/arrowDown';
+import ContactMe from '~/components/contactMe/contactMe';
 import { Jurassic } from '~/components/dinosaur/Jurassic';
 import { Dinosaur } from '~/components/dinosaur/dinosaur';
 import HiIamSu from '~/components/hiIamSu/hiIamSu';
@@ -58,6 +59,10 @@ export default component$(() => {
         {/* work experience */}
         <div>
           <WorkExperience></WorkExperience>
+        </div>
+        {/* Contact Me */}
+        <div>
+          <ContactMe></ContactMe>
         </div>
       </div>
     </>

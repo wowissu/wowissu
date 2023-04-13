@@ -13,16 +13,22 @@ export const Ground = component$(() => {
   const v = useComputed$(() => `0 0 ${svgWidth.value} ${svgHeight.value}`);
   const rects = useStore<RectPosition[]>([]);
 
+  
+
   useVisibleTask$(() => {
+
+    console.log(window.innerHeight);
     svgHeight.value = window.innerHeight / 2;
     svgWidth.value = window.innerWidth;
+  }, {
+    strategy: "document-ready"
   });
 
   const refill = $(function refill(i: number, startX: number = svgWidth.value) {
     const w = randomInt(10) % 4 === 0 ? 90 : 50;
     const h = 20;
     const x = startX;
-    const y = svgHeight.value / 6 * randomInt(6, 1);
+    const y = svgHeight.value / 6 * randomInt(5, 1);
     
     rects[i] = { w, h, x, y };
   })

@@ -1,5 +1,5 @@
 .personal-summary-block {
-  width: clamp(300px, 60%, 960px)
+  width: clamp(400px, 70%, 960px)
 }
 
 .personal-list > li {
@@ -16,5 +16,91 @@
   /* flex-basis: 15px; */
   height: 15px;
   margin-right: 24px;
+}
+
+
+
+.water-ripple {
+  position: relative;
+}
+
+.water-ripple .water-ripple-center {
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  background: linear-gradient(90deg, rgba(27, 152, 94, 0.75) -5.66%, rgba(105, 231, 168, 0.5) 107.92%);
+  box-shadow: 0px 4px 60px rgba(135, 255, 195, 0.2);
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.water-ripple .water-ripple-ring {
+  --bg-color: rgba(27, 152, 94, 0.75);
+
+  position: absolute;
+  z-index: 1;
+  width: calc(20vw + var(--distend));
+  height: calc(20vw + var(--distend));
+  left: calc(var(--distend) / 2 * -1);
+  top: calc(var(--distend) / 2 * -1);
+  border: 16px solid;
+  border-radius: 100%;
+  border-color: var(--bg-color);
+  opacity: var(--circle-opacity);
+}
+
+.water-ripple-element {
+  --water-ripple-range: 20px;
+  --water-ripple-delay: 0s;
+  --water-ripple-duration: .3s;
+  --water-ripple-scale: 1;
+
+  transition: transform .3s;
+  transition-delay: var(--water-ripple-delay);
+  transition-duration: var(--water-ripple-duration);
+  transform: scale(var(--water-ripple-scale)) translate(var(--swing-x), var(--swing-y));
+}
+
+.water-ripple.swing-to-right .water-ripple-element {
+  --swing-x: var(--water-ripple-range);
+}
+.water-ripple.swing-to-left .water-ripple-element {
+  --swing-x: calc(var(--water-ripple-range) * -1);
+}
+.water-ripple.swing-to-bottom .water-ripple-element {
+  --swing-y: var(--water-ripple-range);
+}
+.water-ripple.swing-to-top .water-ripple-element {
+  --swing-y: calc(var(--water-ripple-range) * -1);
+}
+
+.water-ripple.water-ripple-popple .water-ripple-element {
+  --water-ripple-scale: 1.1;
+}
+
+.water-ripple .water-ripple-ring.ring-1 {
+  --distend: 100px;
+  --circle-opacity: .7;
+  --water-ripple-duration: .4s;
+}
+.water-ripple .water-ripple-ring.ring-2 {
+  --distend: 200px;
+  --circle-opacity: .5;
+  --water-ripple-duration: .5s;
+}
+.water-ripple .water-ripple-ring.ring-3 {
+  --distend: 300px;
+  --circle-opacity: .25;
+  --water-ripple-duration: .6s;
+}
+.water-ripple .water-ripple-ring.ring-4 {
+  --distend: 400px;
+  --circle-opacity: .2;
+  --water-ripple-duration: .7s;
+}
+.water-ripple .water-ripple-ring.ring-5 {
+  --distend: 500px;
+  --circle-opacity: .15;
+  --water-ripple-duration: .8s;
 }
 

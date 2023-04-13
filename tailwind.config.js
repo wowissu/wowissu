@@ -16,6 +16,7 @@ module.exports = {
         "1.5xl": "1.375rem",
         "d-xxxl": "clamp(3rem, 5vw, 7rem)",
         "d-xl": "clamp(1rem, 2vw, 2rem)",
+        "contact-me": "clamp(2.5rem, 4vw + 2.5rem, 6.25rem)"
       },
       borderRadius: {
         '4xl': '2rem',

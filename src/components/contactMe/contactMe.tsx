@@ -4,7 +4,7 @@ import { githubUrl, myGmail, npmUrl, resumeUrl } from '~/const/url.const'
 
 export default component$(() => {
   return (
-    <div class="flex justify-center items-center ">
+    <div class="contact-me-bg flex justify-center items-center">
       <div class="flex flex-col items-center py-20 space-y-8">
         <div class="flex space-x-10">
           <div class="w-16">

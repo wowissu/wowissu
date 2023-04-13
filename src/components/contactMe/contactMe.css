@@ -1,4 +1,12 @@
 
+.contact-me-bg {
+  background-image: url("/img/contact_me_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+
 .contact-me {
   @apply font-retroComputer text-contact-me text-highlight-green;
 

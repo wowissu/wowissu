@@ -25,3 +25,59 @@ html, body {
     --highlight-green: rgb(43, 209, 130);
   }
 }
+
+
+.btn {
+  @apply font-retroComputer;
+
+  width: 224px;
+  height: 67px;
+  color: var(--highlight-green);
+  border: 5px solid #1A8F51;
+  box-shadow: 0px 0px 50px rgba(43, 209, 130, 0.4);
+  padding: 20px 40px;
+}
+
+.github-logo {
+  -webkit-mask-image: url(/icons/github.svg);
+  mask-image: url(/icons/github.svg);
+  background-color: var(--dinosaur-green);
+  background-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.mail-logo {
+  -webkit-mask-image: url(/icons/mail.svg);
+  mask-image: url(/icons/mail.svg);
+  background-color: var(--dinosaur-green);
+  background-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.npm-logo {
+  -webkit-mask-image: url(/icons/npm.svg);
+  mask-image: url(/icons/npm.svg);
+  background-color: var(--dinosaur-green);
+  background-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.cv-logo {
+  -webkit-mask-image: url(/icons/user_cv.svg);
+  mask-image: url(/icons/user_cv.svg);
+  background-color: var(--dinosaur-green);
+  background-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
