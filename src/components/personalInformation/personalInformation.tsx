@@ -30,11 +30,6 @@ export default component$(() => {
             Focus on writing high-quality code, incorporating best practices such as solid design patterns, clean coding principles, and maintaining a consistent coding style.
           </li>
         </ul>
-        <div>
-          <a class="btn" href={resumeUrl} target="_blank">
-            GO TO Resume
-          </a>
-        </div>
         {/* icons */}
         <div class="flex gap-x-6 items-center">
           <a href={githubUrl} target="_blank">
@@ -45,6 +40,12 @@ export default component$(() => {
           </a>
           <a href={resumeUrl} target="_blank">
             <img src="icons/user_cv.svg" alt={resumeUrl} />
+          </a>
+        </div>
+
+        <div>
+          <a class="btn" href={resumeUrl} target="_blank">
+            GO TO Resume
           </a>
         </div>
       </div>
