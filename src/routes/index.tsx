@@ -32,7 +32,7 @@ export default component$(() => {
                   <HiIamSu></HiIamSu>
                 </div>
 
-                <h1 class="text-d-xxxl">PERSONAL<br/>PORTFOLIO</h1>
+                <h1 class="text-d-xxxl">PERSONAL<br/>RESUME</h1>
                 
                 <div class="flex justify-evenly items-center text-d-xl">
                   <div>
