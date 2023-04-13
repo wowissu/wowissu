@@ -101,14 +101,14 @@ const WaterRipple = component$(() => {
     function onCenterClick(e: Event) {
       const target = e.target as Element;
 
-      if (!target.className.includes("water-ripple-center")) return;
+      if (!target.className.includes("wr-center")) return;
 
       console.log('center click')
 
-      el.value?.classList.add("water-ripple-popple");      
+      el.value?.classList.add("wr-popple");      
 
       setTimeout(() => {
-        el.value?.classList.remove("water-ripple-popple");      
+        el.value?.classList.remove("wr-popple");      
       }, 300)
     }
 

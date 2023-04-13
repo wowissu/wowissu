@@ -342,97 +342,96 @@
     }
   },
   "mapping": {
-    "s_02wMImzEAbk": "q-172b66e5.js",
-    "s_8JucKSa3amY": "q-e9dc107a.js",
-    "s_KDEcYnEPIfM": "q-21e5a4a5.js",
-    "s_LQPhZ0qOjrk": "q-b7b513ae.js",
-    "s_YsXzsHmONxA": "q-e9dc107a.js",
-    "s_eCazffAUCoY": "q-21e5a4a5.js",
-    "s_0RD0ULvIN5U": "q-e9dc107a.js",
-    "s_370Xqtpk3kE": "q-80c81323.js",
-    "s_3sccYCDd1Z0": "q-99c981cf.js",
-    "s_9kGaD0sWOYQ": "q-776fcfb4.js",
-    "s_AKetNByE5TM": "q-0ed97d22.js",
-    "s_ClYoSHeI6ko": "q-845b9dde.js",
-    "s_J4V2qsF7Yxo": "q-18c6af3f.js",
-    "s_Nk9PlpjQm9Y": "q-fa519e01.js",
-    "s_PxZ05oEiFy8": "q-b7b513ae.js",
-    "s_TxCFOy819ag": "q-172b66e5.js",
-    "s_VkLNXphUh5s": "q-5d3ba02d.js",
-    "s_XAFOWTm7cRE": "q-79c18dee.js",
-    "s_l0k81M6bpAY": "q-21e5a4a5.js",
-    "s_nZlDaAr0f2Q": "q-af1887db.js",
-    "s_w4NzU08ObmA": "q-5ba8ed11.js",
-    "s_wvEX9tcn7nQ": "q-69f2f6b8.js",
-    "s_xYL1qOwPyDI": "q-13c66c97.js",
-    "s_zCjteWHae3E": "q-2a08ff1b.js",
-    "s_zrbrqoaqXSY": "q-febad772.js",
-    "s_A7x0w7F9Kf8": "q-b7b513ae.js",
-    "s_HU55RV7VfPc": "q-b7b513ae.js",
-    "s_A5bZC7WO00A": "q-3778d23b.js",
-    "s_4pJDWsxnXG0": "q-13c66c97.js",
-    "s_J0pV6E9Jjyc": "q-21e5a4a5.js",
-    "s_KnNE9eL0qfc": "q-0ed97d22.js",
-    "s_VBHeK8D8tsk": "q-21e5a4a5.js",
-    "s_fX0bDjeJa0E": "q-172b66e5.js",
-    "s_p9MSze0ojs4": "q-fa519e01.js"
+    "s_02wMImzEAbk": "q-355fa36e.js",
+    "s_8JucKSa3amY": "q-32e29054.js",
+    "s_KDEcYnEPIfM": "q-5fc4baef.js",
+    "s_LQPhZ0qOjrk": "q-9933100d.js",
+    "s_YsXzsHmONxA": "q-32e29054.js",
+    "s_eCazffAUCoY": "q-5fc4baef.js",
+    "s_0RD0ULvIN5U": "q-32e29054.js",
+    "s_370Xqtpk3kE": "q-91222269.js",
+    "s_3sccYCDd1Z0": "q-cb44a49c.js",
+    "s_9kGaD0sWOYQ": "q-1aa8402e.js",
+    "s_AKetNByE5TM": "q-2c9a0ca1.js",
+    "s_ClYoSHeI6ko": "q-49fdb3d7.js",
+    "s_J4V2qsF7Yxo": "q-47f57e52.js",
+    "s_Nk9PlpjQm9Y": "q-5b6d6393.js",
+    "s_PxZ05oEiFy8": "q-9933100d.js",
+    "s_TxCFOy819ag": "q-355fa36e.js",
+    "s_VkLNXphUh5s": "q-b1bcfe96.js",
+    "s_XAFOWTm7cRE": "q-256e82ea.js",
+    "s_l0k81M6bpAY": "q-5fc4baef.js",
+    "s_nZlDaAr0f2Q": "q-402d1ff6.js",
+    "s_w4NzU08ObmA": "q-2003061d.js",
+    "s_wvEX9tcn7nQ": "q-4102167c.js",
+    "s_xYL1qOwPyDI": "q-21f97ee1.js",
+    "s_zCjteWHae3E": "q-653aff76.js",
+    "s_zrbrqoaqXSY": "q-8556dd86.js",
+    "s_A7x0w7F9Kf8": "q-9933100d.js",
+    "s_HU55RV7VfPc": "q-9933100d.js",
+    "s_A5bZC7WO00A": "q-b8bf1759.js",
+    "s_4pJDWsxnXG0": "q-21f97ee1.js",
+    "s_J0pV6E9Jjyc": "q-5fc4baef.js",
+    "s_KnNE9eL0qfc": "q-2c9a0ca1.js",
+    "s_VBHeK8D8tsk": "q-5fc4baef.js",
+    "s_fX0bDjeJa0E": "q-355fa36e.js",
+    "s_p9MSze0ojs4": "q-5b6d6393.js"
   },
   "bundles": {
-    "q-085eafa2.js": {
-      "size": 48594,
-      "dynamicImports": [
-        "q-99c981cf.js"
-      ],
-      "origins": [
-        "node_modules/@builder.io/qwik/core.min.mjs",
-        "src/global.css",
-        "src/root.tsx"
-      ]
-    },
-    "q-0cc2950f.js": {
-      "size": 411,
+    "q-1a323162.js": {
+      "size": 112,
       "imports": [
-        "q-085eafa2.js",
-        "q-99c981cf.js"
+        "q-26dad978.js"
       ],
       "dynamicImports": [
-        "q-18c6af3f.js"
+        "q-45aab3b6.js"
       ],
       "origins": [
-        "src/routes/demo/todolist/index.tsx"
+        "@qwik-city-entries"
       ]
     },
-    "q-0ed97d22.js": {
-      "size": 765,
+    "q-1aa8402e.js": {
+      "size": 161,
       "imports": [
-        "q-085eafa2.js",
-        "q-99c981cf.js"
+        "q-26dad978.js"
       ],
       "origins": [
-        "src/entry_RouterOutlet.js",
-        "src/s_aketnbye5tm.js",
-        "src/s_knne9el0qfc.js"
+        "src/entry_hiIamSu.js",
+        "src/s_9kgad0swoyq.js"
       ],
       "symbols": [
-        "s_AKetNByE5TM",
-        "s_KnNE9eL0qfc"
+        "s_9kGaD0sWOYQ"
       ]
     },
-    "q-13c66c97.js": {
+    "q-2003061d.js": {
+      "size": 4541,
+      "imports": [
+        "q-21f97ee1.js",
+        "q-26dad978.js"
+      ],
+      "origins": [
+        "src/entry_workExperience.js",
+        "src/s_w4nzu08obma.js"
+      ],
+      "symbols": [
+        "s_w4NzU08ObmA"
+      ]
+    },
+    "q-21f97ee1.js": {
       "size": 2589,
       "imports": [
-        "q-085eafa2.js"
+        "q-26dad978.js"
       ],
       "dynamicImports": [
-        "q-2a08ff1b.js",
-        "q-5ba8ed11.js",
-        "q-69f2f6b8.js",
-        "q-776fcfb4.js",
-        "q-79c18dee.js",
-        "q-80c81323.js",
-        "q-845b9dde.js",
-        "q-af1887db.js",
-        "q-e9dc107a.js"
+        "q-1aa8402e.js",
+        "q-2003061d.js",
+        "q-256e82ea.js",
+        "q-32e29054.js",
+        "q-402d1ff6.js",
+        "q-4102167c.js",
+        "q-49fdb3d7.js",
+        "q-653aff76.js",
+        "q-91222269.js"
       ],
       "origins": [
         "src/components/arrowDown/arrowDown.css",
@@ -457,18 +456,79 @@
         "s_xYL1qOwPyDI"
       ]
     },
-    "q-172b66e5.js": {
-      "size": 2627,
+    "q-256e82ea.js": {
+      "size": 466,
       "imports": [
-        "q-085eafa2.js",
-        "q-99c981cf.js"
+        "q-26dad978.js"
       ],
       "dynamicImports": [
-        "q-0cc2950f.js",
-        "q-38a18175.js",
-        "q-6431734c.js",
-        "q-7f00c328.js",
-        "q-ee61e84b.js"
+        "q-5fc4baef.js"
+      ],
+      "origins": [
+        "src/components/dinosaur/ground.tsx",
+        "src/entry_Jurassic.js",
+        "src/s_xafowtm7cre.js"
+      ],
+      "symbols": [
+        "s_XAFOWTm7cRE"
+      ]
+    },
+    "q-26dad978.js": {
+      "size": 48594,
+      "dynamicImports": [
+        "q-cb44a49c.js"
+      ],
+      "origins": [
+        "node_modules/@builder.io/qwik/core.min.mjs",
+        "src/global.css",
+        "src/root.tsx"
+      ]
+    },
+    "q-2c9a0ca1.js": {
+      "size": 765,
+      "imports": [
+        "q-26dad978.js",
+        "q-cb44a49c.js"
+      ],
+      "origins": [
+        "src/entry_RouterOutlet.js",
+        "src/s_aketnbye5tm.js",
+        "src/s_knne9el0qfc.js"
+      ],
+      "symbols": [
+        "s_AKetNByE5TM",
+        "s_KnNE9eL0qfc"
+      ]
+    },
+    "q-32e29054.js": {
+      "size": 2017,
+      "imports": [
+        "q-26dad978.js"
+      ],
+      "origins": [
+        "src/entry_WaterRipple.js",
+        "src/s_0rd0ulvin5u.js",
+        "src/s_8jucksa3amy.js",
+        "src/s_ysxzshmonxa.js"
+      ],
+      "symbols": [
+        "s_0RD0ULvIN5U",
+        "s_8JucKSa3amY",
+        "s_YsXzsHmONxA"
+      ]
+    },
+    "q-355fa36e.js": {
+      "size": 2627,
+      "imports": [
+        "q-26dad978.js",
+        "q-cb44a49c.js"
+      ],
+      "dynamicImports": [
+        "q-1a323162.js",
+        "q-5dd32c50.js",
+        "q-83faf35a.js",
+        "q-90eb8e94.js",
+        "q-db6904d7.js"
       ],
       "origins": [
         "@qwik-city-plan",
@@ -483,12 +543,46 @@
         "s_TxCFOy819ag"
       ]
     },
-    "q-18c6af3f.js": {
+    "q-402d1ff6.js": {
+      "size": 1224,
+      "imports": [
+        "q-26dad978.js",
+        "q-b596ad56.js"
+      ],
+      "origins": [
+        "src/entry_contactMe.js",
+        "src/s_nzldaar0f2q.js"
+      ],
+      "symbols": [
+        "s_nZlDaAr0f2Q"
+      ]
+    },
+    "q-4102167c.js": {
+      "size": 123,
+      "imports": [
+        "q-26dad978.js"
+      ],
+      "origins": [
+        "src/entry_Dinosaur.js",
+        "src/s_wvex9tcn7nq.js"
+      ],
+      "symbols": [
+        "s_wvEX9tcn7nQ"
+      ]
+    },
+    "q-45aab3b6.js": {
+      "size": 2536,
+      "origins": [
+        "node_modules/@builder.io/qwik-city/service-worker.mjs",
+        "src/routes/service-worker.ts"
+      ]
+    },
+    "q-47f57e52.js": {
       "size": 1127,
       "imports": [
-        "q-085eafa2.js",
-        "q-0cc2950f.js",
-        "q-99c981cf.js"
+        "q-26dad978.js",
+        "q-5dd32c50.js",
+        "q-cb44a49c.js"
       ],
       "origins": [
         "src/entry_todolist.js",
@@ -499,11 +593,53 @@
         "s_J4V2qsF7Yxo"
       ]
     },
-    "q-21e5a4a5.js": {
+    "q-49fdb3d7.js": {
+      "size": 129,
+      "imports": [
+        "q-26dad978.js"
+      ],
+      "origins": [
+        "src/entry_arrowDown.js",
+        "src/s_clyoshei6ko.js"
+      ],
+      "symbols": [
+        "s_ClYoSHeI6ko"
+      ]
+    },
+    "q-5b6d6393.js": {
+      "size": 1001,
+      "imports": [
+        "q-26dad978.js",
+        "q-cb44a49c.js"
+      ],
+      "origins": [
+        "src/entry_GetForm.js",
+        "src/s_nk9plpjqm9y.js",
+        "src/s_p9msze0ojs4.js"
+      ],
+      "symbols": [
+        "s_Nk9PlpjQm9Y",
+        "s_p9MSze0ojs4"
+      ]
+    },
+    "q-5dd32c50.js": {
+      "size": 411,
+      "imports": [
+        "q-26dad978.js",
+        "q-cb44a49c.js"
+      ],
+      "dynamicImports": [
+        "q-47f57e52.js"
+      ],
+      "origins": [
+        "src/routes/demo/todolist/index.tsx"
+      ]
+    },
+    "q-5fc4baef.js": {
       "size": 1541,
       "imports": [
-        "q-085eafa2.js",
-        "q-79c18dee.js"
+        "q-256e82ea.js",
+        "q-26dad978.js"
       ],
       "origins": [
         "src/entry_Ground.js",
@@ -521,10 +657,10 @@
         "s_VBHeK8D8tsk"
       ]
     },
-    "q-2a08ff1b.js": {
+    "q-653aff76.js": {
       "size": 970,
       "imports": [
-        "q-085eafa2.js"
+        "q-26dad978.js"
       ],
       "origins": [
         "src/entry_WorkExpItem.js",
@@ -534,144 +670,56 @@
         "s_zCjteWHae3E"
       ]
     },
-    "q-3778d23b.js": {
-      "size": 751,
-      "imports": [
-        "q-085eafa2.js"
-      ],
-      "origins": [
-        "src/entry_routeActionQrl.js",
-        "src/s_a5bzc7wo00a.js"
-      ],
-      "symbols": [
-        "s_A5bZC7WO00A"
-      ]
-    },
-    "q-38a18175.js": {
-      "size": 292,
-      "imports": [
-        "q-085eafa2.js"
-      ],
-      "dynamicImports": [
-        "q-13c66c97.js"
-      ],
-      "origins": [
-        "src/routes/index.tsx"
-      ]
-    },
-    "q-45aab3b6.js": {
-      "size": 2536,
-      "origins": [
-        "node_modules/@builder.io/qwik-city/service-worker.mjs",
-        "src/routes/service-worker.ts"
-      ]
-    },
-    "q-5ba8ed11.js": {
-      "size": 4541,
-      "imports": [
-        "q-085eafa2.js",
-        "q-13c66c97.js"
-      ],
-      "origins": [
-        "src/entry_workExperience.js",
-        "src/s_w4nzu08obma.js"
-      ],
-      "symbols": [
-        "s_w4NzU08ObmA"
-      ]
-    },
-    "q-5d3ba02d.js": {
-      "size": 149,
-      "imports": [
-        "q-085eafa2.js"
-      ],
-      "origins": [
-        "src/entry_layout.js",
-        "src/s_vklnxphuh5s.js"
-      ],
-      "symbols": [
-        "s_VkLNXphUh5s"
-      ]
-    },
-    "q-63771904.js": {
+    "q-77e1b31a.js": {
       "size": 58,
       "imports": [
-        "q-085eafa2.js"
+        "q-26dad978.js"
       ]
     },
-    "q-6431734c.js": {
-      "size": 277,
-      "imports": [
-        "q-085eafa2.js",
-        "q-99c981cf.js"
-      ],
-      "dynamicImports": [
-        "q-5d3ba02d.js"
-      ],
-      "origins": [
-        "src/routes/layout.tsx"
-      ]
-    },
-    "q-69f2f6b8.js": {
-      "size": 123,
-      "imports": [
-        "q-085eafa2.js"
-      ],
-      "origins": [
-        "src/entry_Dinosaur.js",
-        "src/s_wvex9tcn7nq.js"
-      ],
-      "symbols": [
-        "s_wvEX9tcn7nQ"
-      ]
-    },
-    "q-776fcfb4.js": {
-      "size": 161,
-      "imports": [
-        "q-085eafa2.js"
-      ],
-      "origins": [
-        "src/entry_hiIamSu.js",
-        "src/s_9kgad0swoyq.js"
-      ],
-      "symbols": [
-        "s_9kGaD0sWOYQ"
-      ]
-    },
-    "q-79c18dee.js": {
-      "size": 466,
-      "imports": [
-        "q-085eafa2.js"
-      ],
-      "dynamicImports": [
-        "q-21e5a4a5.js"
-      ],
-      "origins": [
-        "src/components/dinosaur/ground.tsx",
-        "src/entry_Jurassic.js",
-        "src/s_xafowtm7cre.js"
-      ],
-      "symbols": [
-        "s_XAFOWTm7cRE"
-      ]
-    },
-    "q-7f00c328.js": {
+    "q-83faf35a.js": {
       "size": 241,
       "imports": [
-        "q-085eafa2.js"
+        "q-26dad978.js"
       ],
       "dynamicImports": [
-        "q-b7b513ae.js"
+        "q-9933100d.js"
       ],
       "origins": [
         "src/routes/demo/flower/index.tsx"
       ]
     },
-    "q-80c81323.js": {
+    "q-8556dd86.js": {
+      "size": 671,
+      "imports": [
+        "q-26dad978.js",
+        "q-cb44a49c.js"
+      ],
+      "origins": [
+        "src/entry_RouterHead.js",
+        "src/s_zrbrqoaqxsy.js"
+      ],
+      "symbols": [
+        "s_zrbrqoaqXSY"
+      ]
+    },
+    "q-90eb8e94.js": {
+      "size": 277,
+      "imports": [
+        "q-26dad978.js",
+        "q-cb44a49c.js"
+      ],
+      "dynamicImports": [
+        "q-b1bcfe96.js"
+      ],
+      "origins": [
+        "src/routes/layout.tsx"
+      ]
+    },
+    "q-91222269.js": {
       "size": 1870,
       "imports": [
-        "q-085eafa2.js",
-        "q-13c66c97.js",
+        "q-21f97ee1.js",
+        "q-26dad978.js",
         "q-b596ad56.js"
       ],
       "origins": [
@@ -682,67 +730,11 @@
         "s_370Xqtpk3kE"
       ]
     },
-    "q-845b9dde.js": {
-      "size": 129,
-      "imports": [
-        "q-085eafa2.js"
-      ],
-      "origins": [
-        "src/entry_arrowDown.js",
-        "src/s_clyoshei6ko.js"
-      ],
-      "symbols": [
-        "s_ClYoSHeI6ko"
-      ]
-    },
-    "q-99c981cf.js": {
-      "size": 7807,
-      "imports": [
-        "q-085eafa2.js"
-      ],
-      "dynamicImports": [
-        "q-0ed97d22.js",
-        "q-172b66e5.js",
-        "q-3778d23b.js",
-        "q-fa519e01.js",
-        "q-febad772.js"
-      ],
-      "origins": [
-        "@qwik-city-sw-register",
-        "node_modules/@builder.io/qwik-city/index.qwik.mjs",
-        "src/components/router-head/router-head.tsx",
-        "src/entry_root.js",
-        "src/s_3sccycdd1z0.js"
-      ],
-      "symbols": [
-        "s_3sccYCDd1Z0"
-      ]
-    },
-    "q-af1887db.js": {
-      "size": 1224,
-      "imports": [
-        "q-085eafa2.js",
-        "q-b596ad56.js"
-      ],
-      "origins": [
-        "src/entry_contactMe.js",
-        "src/s_nzldaar0f2q.js"
-      ],
-      "symbols": [
-        "s_nZlDaAr0f2Q"
-      ]
-    },
-    "q-b596ad56.js": {
-      "size": 183,
-      "origins": [
-        "src/const/url.const.ts"
-      ]
-    },
-    "q-b7b513ae.js": {
+    "q-9933100d.js": {
       "size": 2519,
       "imports": [
-        "q-085eafa2.js",
-        "q-99c981cf.js"
+        "q-26dad978.js",
+        "q-cb44a49c.js"
       ],
       "origins": [
         "src/entry_flower.js",
@@ -759,63 +751,71 @@
         "s_PxZ05oEiFy8"
       ]
     },
-    "q-e9dc107a.js": {
-      "size": 2047,
+    "q-b1bcfe96.js": {
+      "size": 149,
       "imports": [
-        "q-085eafa2.js"
+        "q-26dad978.js"
       ],
       "origins": [
-        "src/entry_WaterRipple.js",
-        "src/s_0rd0ulvin5u.js",
-        "src/s_8jucksa3amy.js",
-        "src/s_ysxzshmonxa.js"
+        "src/entry_layout.js",
+        "src/s_vklnxphuh5s.js"
       ],
       "symbols": [
-        "s_0RD0ULvIN5U",
-        "s_8JucKSa3amY",
-        "s_YsXzsHmONxA"
+        "s_VkLNXphUh5s"
       ]
     },
-    "q-ee61e84b.js": {
-      "size": 112,
+    "q-b596ad56.js": {
+      "size": 183,
+      "origins": [
+        "src/const/url.const.ts"
+      ]
+    },
+    "q-b8bf1759.js": {
+      "size": 751,
       "imports": [
-        "q-085eafa2.js"
+        "q-26dad978.js"
+      ],
+      "origins": [
+        "src/entry_routeActionQrl.js",
+        "src/s_a5bzc7wo00a.js"
+      ],
+      "symbols": [
+        "s_A5bZC7WO00A"
+      ]
+    },
+    "q-cb44a49c.js": {
+      "size": 7807,
+      "imports": [
+        "q-26dad978.js"
       ],
       "dynamicImports": [
-        "q-45aab3b6.js"
+        "q-2c9a0ca1.js",
+        "q-355fa36e.js",
+        "q-5b6d6393.js",
+        "q-8556dd86.js",
+        "q-b8bf1759.js"
       ],
       "origins": [
-        "@qwik-city-entries"
-      ]
-    },
-    "q-fa519e01.js": {
-      "size": 1001,
-      "imports": [
-        "q-085eafa2.js",
-        "q-99c981cf.js"
-      ],
-      "origins": [
-        "src/entry_GetForm.js",
-        "src/s_nk9plpjqm9y.js",
-        "src/s_p9msze0ojs4.js"
+        "@qwik-city-sw-register",
+        "node_modules/@builder.io/qwik-city/index.qwik.mjs",
+        "src/components/router-head/router-head.tsx",
+        "src/entry_root.js",
+        "src/s_3sccycdd1z0.js"
       ],
       "symbols": [
-        "s_Nk9PlpjQm9Y",
-        "s_p9MSze0ojs4"
+        "s_3sccYCDd1Z0"
       ]
     },
-    "q-febad772.js": {
-      "size": 671,
+    "q-db6904d7.js": {
+      "size": 292,
       "imports": [
-        "q-085eafa2.js",
-        "q-99c981cf.js"
+        "q-26dad978.js"
+      ],
+      "dynamicImports": [
+        "q-21f97ee1.js"
       ],
       "origins": [
-        "src/entry_RouterHead.js",
-        "src/s_zrbrqoaqxsy.js"
-      ],
-      "symbols": [
-        "s_zrbrqoaqXSY"
+        "src/routes/index.tsx"
       ]
     }
   },
