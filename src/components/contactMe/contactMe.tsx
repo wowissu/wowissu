@@ -8,13 +8,13 @@ export default component$(() => {
       <div class="flex flex-col items-center py-20 space-y-8">
         <div class="flex space-x-10">
           <div class="w-16">
-            <img src="/img/emoji_02.svg" alt="" />
+            <img src="img/emoji_02.svg" alt="" />
           </div>
           <div class="w-16">
-            <img src="/img/emoji_03.svg" alt="" />
+            <img src="img/emoji_03.svg" alt="" />
           </div>
           <div class="w-16">
-            <img src="/img/emoji_01.svg" alt="" />
+            <img src="img/emoji_01.svg" alt="" />
           </div>
         </div>
         <div class="contact-me">

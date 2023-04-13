@@ -1,4 +1,4 @@
-import { component$ } from '@builder.io/qwik';
+import { $, component$ } from '@builder.io/qwik';
 import type { DocumentHead} from '@builder.io/qwik-city';
 import ArrowDown from '~/components/arrowDown/arrowDown';
 import ContactMe from '~/components/contactMe/contactMe';
@@ -9,6 +9,10 @@ import PersonalInformation from '~/components/personalInformation/personalInform
 import WorkExperience from '~/components/workExperience/workExperience';
 
 export default component$(() => {
+  const arrowDown = $(() => {
+    window.scrollTo({ top: window.innerHeight, behavior: "smooth", });
+  })
+
   return (
     <>
       <div class="min-h-screen relative">
@@ -47,13 +51,13 @@ export default component$(() => {
 
           {/* more */}
           <div class="absolute bottom-0 w-full left-0 flex justify-center py-6">  
-            <div class="cursor-pointer">
+            <div class="cursor-pointer" onClick$={arrowDown}>
               <ArrowDown></ArrowDown>
             </div>
           </div>
         </div>
         {/* Personal information */}
-        <div>
+        <div class="mb-40">
           <PersonalInformation></PersonalInformation>
         </div>
         {/* work experience */}

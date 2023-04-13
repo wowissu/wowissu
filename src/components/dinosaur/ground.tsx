@@ -13,11 +13,7 @@ export const Ground = component$(() => {
   const v = useComputed$(() => `0 0 ${svgWidth.value} ${svgHeight.value}`);
   const rects = useStore<RectPosition[]>([]);
 
-  
-
   useVisibleTask$(() => {
-
-    console.log(window.innerHeight);
     svgHeight.value = window.innerHeight / 2;
     svgWidth.value = window.innerWidth;
   }, {

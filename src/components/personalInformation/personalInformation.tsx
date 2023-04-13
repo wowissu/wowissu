@@ -33,13 +33,13 @@ export default component$(() => {
         {/* icons */}
         <div class="flex gap-x-6 items-center">
           <a href={githubUrl} target="_blank">
-            <img src="/icons/github.svg" alt={githubUrl} />
+            <img src="icons/github.svg" alt={githubUrl} />
           </a>
           <a href={npmUrl} target="_blank">
-            <img src="/icons/npm.svg" alt={npmUrl} />
+            <img src="icons/npm.svg" alt={npmUrl} />
           </a>
           <a href={resumeUrl} target="_blank">
-            <img src="/icons/user_cv.svg" alt={resumeUrl} />
+            <img src="icons/user_cv.svg" alt={resumeUrl} />
           </a>
         </div>
       </div>
