@@ -30,12 +30,15 @@ html, body {
 .btn {
   @apply font-retroComputer;
 
+  display: inline-flex;
   width: 224px;
   height: 67px;
   color: var(--highlight-green);
   border: 5px solid #1A8F51;
+  white-space: nowrap;
   box-shadow: 0px 0px 50px rgba(43, 209, 130, 0.4);
-  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .github-logo {
